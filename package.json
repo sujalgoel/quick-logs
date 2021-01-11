@@ -1,0 +1,28 @@
+{
+  "name": "quick-logs",
+  "version": "1.0.1",
+  "description": "Store your logs into json files.",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "log",
+    "file",
+    "logger",
+    "quick"
+  ],
+  "author": "Sujal Goel",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sujalgoel/quick-logs"
+  },
+  "bugs": {
+    "url": "https://github.com/sujalgoel/quick-logs"
+  },
+  "homepage": "https://github.com/sujalgoel/quick-logs",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
