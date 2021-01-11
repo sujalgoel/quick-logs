@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2020",
+        "declaration": false,
+        "strict": false,
+        "strictNullChecks": false,
+        "esModuleInterop": true
+    },
+    "files": [
+        "./src/app.ts"
+    ]
+}

@@ -4,10 +4,9 @@
 
 [![discord](https://img.shields.io/discord/788857247337938945.svg?logo=discord&colorB=7289DA)](http://db.quickdevs.studio/discord)
 [![website](https://img.shields.io/website?down_color=ff0000&down_message=offline&up_color=00ff00&up_message=online&url=https://db.quickdevs.studio)](https://db.quickdevs.studio)
-[![npm](https://img.shields.io/npm/v/quick-logs)](https://npmjs.org/quick-logs)
-[![license](https://img.shields.io/github/license/sujalgoel/quick-logs)](https://github.com/sujalgoel/quick-logs/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/@sujalgoel/quick-logs)](https://npmjs.org/@sujalgoel/quick-logs)
 
-> Store your logs into **json** files.
+> Store your console logs into **json** files.
 
 ## How to use 📚
 
