@@ -12,7 +12,7 @@
 ## How to use 📚
 
 ```js
-const quicklogs = require("quick-logs"); // Requiring our package.
+const quicklogs = require("@sujalgoel/quick-logs"); // Requiring our package.
 
 quicklogs("YOUR_DATA"); // It will save the data in quick-logs.json file.
 quicklogs("YOUR_DATA", 'custom-name.json'); // It will save the data in custom-name.json file.

@@ -1,5 +1,5 @@
 {
-  "name": "quick-logs",
+  "name": "@sujalgoel/quick-logs",
   "version": "1.0.1",
   "description": "Store your logs into json files.",
   "main": "src/app.ts",
