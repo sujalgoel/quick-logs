@@ -1,11 +1,11 @@
 <img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="Atlanta" src="https://cdn.discordapp.com/attachments/787614573833486376/798170524794355752/quick-logs.png"> 
  
-# Quick Online
+# Quick Logs
 
 [![discord](https://img.shields.io/discord/788857247337938945.svg?logo=discord&colorB=7289DA)](http://db.quickdevs.studio/discord)
 [![website](https://img.shields.io/website?down_color=ff0000&down_message=offline&up_color=00ff00&up_message=online&url=https://db.quickdevs.studio)](https://db.quickdevs.studio)
 [![npm](https://img.shields.io/npm/v/quick-logs)](https://npmjs.org/quick-logs)
-[![license](https://img.shields.io/github/license/sujalgoel/quick-logs)](https://github.com/sujalgoel/quick-logs/blob/main/LICENSE)
+[![license](https://img.shields.io/github/license/sujalgoel/quick-logs)](https://github.com/sujalgoel/quick-logs/blob/master/LICENSE)
 
 > Store your logs into **json** files.
 
@@ -13,8 +13,8 @@
 
 ```js
 const quicklogs = require("quick-logs"); // Requiring our package.
-quicklogs("YOUR_DATA"); // It will save the data in quick-logs.json file.
 
+quicklogs("YOUR_DATA"); // It will save the data in quick-logs.json file.
 quicklogs("YOUR_DATA", 'custom-name.json'); // It will save the data in custom-name.json file.
 ```
 
