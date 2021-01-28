@@ -7,13 +7,11 @@ const fs = require("fs");
  */
 
 function logToFile(data, file) {
-  let filename = file;
-  if (!file) {
-    filename = "quick-logs.json";
-  } else if (!file.endsWith(".json")) {
-    throw new Error("Only '.json' files are allowed.");
+  let filename = file
+  if (!filename) {
+    filename = "quick-logs.log";
   }
-  const filetext = `{"${new Date()}" : "${data}",\n"Logged using" : "Quick Logs"}`;
+  const filetext = `${new Date()} ---> ${data}\n\nhttps://www.npmjs.com/package/@sujalgoel/quick-logs`;
   fs.writeFile(
     filename,
     filetext,

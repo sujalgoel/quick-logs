@@ -1,7 +1,7 @@
 {
   "name": "@sujalgoel/quick-logs",
   "version": "1.0.5",
-  "description": "Store your logs into json files.",
+  "description": "Store your console logs into files.",
   "main": "src/app.ts",
   "scripts": {
     "test": "node test/test.js"

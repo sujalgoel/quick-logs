@@ -6,15 +6,15 @@
 [![website](https://img.shields.io/website?down_color=ff0000&down_message=offline&up_color=00ff00&up_message=online&url=https://db.quickdevs.studio)](https://db.quickdevs.studio)
 [![npm](https://img.shields.io/npm/v/@sujalgoel/quick-logs)](https://npmjs.org/@sujalgoel/quick-logs)
 
-> Store your console logs into **json** files.
+> Store your console logs into **any** file.
 
 ## How to use 📚
 
 ```js
 const quicklogs = require("@sujalgoel/quick-logs"); // Requiring our package.
 
-quicklogs("YOUR_DATA"); // It will save the data in quick-logs.json file.
-quicklogs("YOUR_DATA", 'custom-name.json'); // It will save the data in custom-name.json file.
+quicklogs("YOUR_DATA"); // It will save the data in quick-logs.log file.
+quicklogs("YOUR_DATA", 'custom-name'); // It will save the data in custom-name file.
 ```
 
 ## Reasons **Why** 📋
