@@ -25,4 +25,4 @@ quicklogs("YOUR_DATA", 'custom-name'); // It will save the data in custom-name f
 
 ## **Creators** 💖
 
-- Sujal Goel#0001
+- Sujal Goel#0302

@@ -11,7 +11,7 @@ function logToFile(data, file) {
   if (!filename) {
     filename = "quick-logs.log";
   }
-  const filetext = `${new Date()} ---> ${data}\n\nhttps://www.npmjs.com/package/@sujalgoel/quick-logs`;
+  const filetext = `${new Date()}\n\nData:\n${data}`;
   fs.writeFile(
     filename,
     filetext,

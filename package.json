@@ -1,6 +1,6 @@
 {
   "name": "@sujalgoel/quick-logs",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "description": "Store your console logs into files.",
   "main": "src/app.ts",
   "scripts": {
